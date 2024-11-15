@@ -15,13 +15,13 @@ Nous sommes dans le contexte du Retail, où l'objectif est d'analyser la perform
 
 Les questions que nous chercherons à résoudre incluent par exemple :
 
-Quel est notre chiffre d’affaires (CA) par mois et par an ?
-Quel est le montant total et moyen des ventes ?
-Quel pourcentage de nos clients passent une commande chaque mois ?
-Quels produits ont été vendus l’année dernière mais pas cette année ?
-Quel est notre taux de croissance annuel ?
-Quels sont les clients qui passent le plus de commandes ?
-Quel est le CA par an et par catégorie de produits ?
+- Quel est notre chiffre d’affaires (CA) par mois et par an ?
+- Quel est le montant total et moyen des ventes ?
+- Quel pourcentage de nos clients passent une commande chaque mois ?
+- Quels produits ont été vendus l’année dernière mais pas cette année ?
+- Quel est notre taux de croissance annuel ?
+- Quels sont les clients qui passent le plus de commandes ?
+- Quel est le CA par an et par catégorie de produits ?
 
 … et bien d’autres questions pratiques du monde de l’entreprise. 
 
