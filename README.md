@@ -1,7 +1,7 @@
 
 ## Intégration de données dans une base de données PostgreSQL en utilisant du script Python
 
-<img width="518" alt="Image1" src="https://github.com/user-attachments/assets/8e63c6f4-87b9-4d01-bafb-7566474d2de0">
+<img width="800" alt="Image1" src="https://github.com/user-attachments/assets/8e63c6f4-87b9-4d01-bafb-7566474d2de0">
 
 À travers ce projet, je montre mes compétences dans la construction d'une base de données et dans son requêtage en langage SQL afin d'en extraire des insights précieux.
 
