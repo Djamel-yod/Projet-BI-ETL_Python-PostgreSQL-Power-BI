@@ -33,8 +33,7 @@ J'utilise dans ce projet mes compétences en **Python** et **SQL** pour résoudr
 
 **-** Chargement des données dans un datawarehouse **PostgreSQL**
 
-**-** Requêtage de ma base de données ainsi construite pour répondre aux problématiques business énoncé plus haut.
-
+**-** Requêtage de ma base de données ainsi construite pour répondre aux problématiques business énoncées plus haut.
 
 # Outils
 
