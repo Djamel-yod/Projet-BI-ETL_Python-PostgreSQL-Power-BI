@@ -21,19 +21,20 @@ ORDER BY
 	
 	
 
---- Quel est le CA par an et par catégorie de produits ?
+--- Quel est le CA par année, mois et par catégorie de produits ?
 
-SELECT 
-	SUM(quantity*unit_price) AS Chiffre_Affaire, 
+SELECT  
+	EXTRACT(YEAR FROM orders.order_date) AS Annee,
+	EXTRACT(MONTH FROM order_date) AS Mois,
 	category,
-	EXTRACT(YEAR FROM orders.order_date) AS Annee 
+	SUM(quantity*unit_price) AS Chiffre_Affaire
 FROM 
 	order_details 
 INNER JOIN 
 	orders ON order_details.order_id=orders.order_id
 INNER JOIN
 	products ON order_details.product_id=products.product_id	
-GROUP BY Annee,category
+GROUP BY Annee,Mois, category
 ORDER BY 
 	Chiffre_Affaire, Annee DESC;
 	
@@ -108,7 +109,7 @@ ORDER BY
 LIMIT 10;
 
 
---- Quels sont les clients qui ont passés plus de 20 commandes ?
+--- Quels sont les clients qui ont passés plus de 10 commandes ?
 
 WITH Commandes AS(
 	SELECT 
@@ -118,7 +119,7 @@ WITH Commandes AS(
 	GROUP BY 
 		customer_id
 	HAVING 
-		COUNT(customer_id) > 20
+		COUNT(customer_id) > 10
 	
 	)
 	
