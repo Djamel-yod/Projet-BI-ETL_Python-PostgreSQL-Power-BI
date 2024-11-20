@@ -26,9 +26,11 @@ J'utilise dans ce projet mes compétences en **Python** et **SQL** pour résoudr
 
 # Méthodologie
 
+**-** Construction des tables de la base de données **PostgreSQL**
+
 **-** Construction d'un **ETL** en utilisant **pandas** et **sqlalchemy**
 
-**-** Chargement des données dans un datawarehouse **PostgreSQL**
+**-** Chargement des données dans le datawarehouse **PostgreSQL**
 
 **-** Requêtage de ma base de données ainsi construite pour répondre aux problématiques business énoncées plus haut.
 
