@@ -17,7 +17,7 @@ Les questions que nous chercherons à résoudre incluent par exemple :
 
 - Quel est le montant total et moyen des ventes entre 2022 et 2024 ?
 - Quel est notre chiffre d'affaires (CA) par mois et par an depuis 2022 ?
-- Quel est le CA par an et par catégorie de produits ?
+- Quel est le CA par année, mois et par catégorie de produits ?
 - Quels sont les 10 clients qui ont passés le plus de commandes ?
 - Quels sont les clients qui ont passés plus de 20 commandes ?
 
