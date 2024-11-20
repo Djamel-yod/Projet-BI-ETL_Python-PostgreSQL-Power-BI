@@ -108,7 +108,7 @@ ORDER BY
 LIMIT 10;
 
 
---- Quels sont les clients qui ont passés plus de 10 commandes ?
+--- Quels sont les clients qui ont passés plus de 20 commandes ?
 
 WITH Commandes AS(
 	SELECT 
@@ -118,7 +118,7 @@ WITH Commandes AS(
 	GROUP BY 
 		customer_id
 	HAVING 
-		COUNT(customer_id) > 10
+		COUNT(customer_id) > 20
 	
 	)
 	
