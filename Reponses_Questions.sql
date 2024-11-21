@@ -1,3 +1,20 @@
+-- Quel est le nombre de nos clients ?
+
+SELECT 
+	COUNT(DISTINCT(customer_id)) AS nombre_clients
+FROM customers;
+
+
+-- Quel est le nombre des commandes ?
+
+SELECT 
+	COUNT(order_id) AS nombre_commande
+FROM 
+	orders
+WHERE 
+	status= 'Completed';
+
+
 --- Quel est le montant total et moyen des ventes entre 2022 et 2024 ?
  SELECT 
  	SUM(quantity*unit_price) AS total, 
