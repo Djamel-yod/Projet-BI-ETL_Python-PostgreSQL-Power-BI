@@ -29,7 +29,7 @@ Après avoir construit la base de données et construit les tables répondant au
 
 Après la construction de ma base de données sous PostgreSQL, je requête cette dernière pour répondre aux problématiques business énoncées plus haut, et je produit un rapport BI interactif sous **Power BI** afin de permettre aux décideurs d'avoir une vue synthétique de la réponse de la troisième question. Ce rapport, dont l'image est ci-dessous, permet à l'utilisateur de savoir quelle est l'évolution mensuelle du chiffre d'affaires pour chaque année et par catégorie de produit. Elle permet également de répondre aux mêmes questions pour toutes les années comprises (2022 à 2024).
 
-<img width="800" alt="Rapport" src="https://github.com/user-attachments/assets/7c90a9c3-c8ea-4d5b-ba0c-ecb64d11f0bf">
+<img width="800" alt="Rapport" src="https://github.com/user-attachments/assets/206518e1-67c7-46e8-aba2-ce80d7cd4310">
 
 
 # Méthodologie
