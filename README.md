@@ -1,5 +1,5 @@
 
-## Intégration de données dans une base de données PostgreSQL en utilisant du script Python et rendu avec Power BI.
+## Projet Business Intelligence (Python+SQL+Power BI)
 
 
 <img width="800" alt="Image1" src="https://github.com/user-attachments/assets/062cc65b-9c50-4431-8c86-33026b5987e8">
