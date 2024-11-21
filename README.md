@@ -36,7 +36,7 @@ Après la construction de ma base de données sous PostgreSQL, je requête cette
 
 **-** Construction des tables de la base de données **PostgreSQL** (Fichier nommé Tables.sql)
 
-**-** Construction d'un **ETL** en utilisant **pandas** et **sqlalchemy** (Fichier nommé etl.py)
+**-** Construction d'un **ETL** en utilisant **pandas** et **sqlalchemy** (Fichier nommé etl.ipynb)
 
 **-** Chargement des données dans le datawarehouse **PostgreSQL**
 
