@@ -4,10 +4,11 @@
 
 <img width="800" alt="Image1" src="https://github.com/user-attachments/assets/062cc65b-9c50-4431-8c86-33026b5987e8">
 
-À travers ce projet, je montre mes compétences dans la construction d'une base de données et dans son requêtage en langage SQL afin d'en extraire des insights précieux.
+J'utilise dans ce projet mes compétences en **Python**, **SQL** et **Power BI** pour mener de bout en bout un projet BI complet allant de l'intégration des données à la production d'un rapport BI permettant d'extraire des insights précieux.
+
 
 # Contexte
-Nous sommes dans le contexte du Retail, où l'objectif est d'analyser la performance de nos ventes. En tant que Data Analyst, mon supérieur m'a confié la tâche de construire une base de données SQL (Datawarehouse) à partir les quatres fichiers excel suivants:
+Nous sommes dans le contexte du Retail, où l'objectif est d'analyser la performance de nos ventes. En tant que Data Analyst, mon supérieur m'a confié la tâche de construire une base de données SQL (Datawarehouse) à partir des quatres fichiers excel suivants:
 
 - **customers** : contient des informations sur nos clients, telles que nom, prénom, email et date d’inscription.
 - **products** : inclut des détails comme le prix, le nom du produit et sa catégorie.
@@ -22,9 +23,7 @@ Les questions que nous chercherons à résoudre incluent par exemple :
 - Quels sont les 10 clients qui ont passés le plus de commandes ?
 - Quels sont les clients qui ont passés plus de 20 commandes ?
 
-
-J'utilise dans ce projet mes compétences en **Python**, **SQL** et **Power BI** pour résoudre les problèmes posés.
-
+Après avoir construit la base de données et construit les tables répondant aux questions ci-dessus, je dois produire un rapport BI répondant à la troisième question.
 
 # Rendu
 
