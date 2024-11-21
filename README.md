@@ -1,8 +1,8 @@
 
 ## Intégration de données dans une base de données PostgreSQL en utilisant du script Python et rendu avec Power BI.
 
-![image](https://github.com/user-attachments/assets/dc73f02e-aaba-4902-abe8-0d9f465a518b)
 
+<img width="800" alt="Image1" src="https://github.com/user-attachments/assets/062cc65b-9c50-4431-8c86-33026b5987e8">
 
 À travers ce projet, je montre mes compétences dans la construction d'une base de données et dans son requêtage en langage SQL afin d'en extraire des insights précieux.
 
