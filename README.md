@@ -25,7 +25,7 @@ Les questions que nous chercherons à résoudre incluent par exemple :
 - Quels sont les 10 clients qui ont passés le plus de commandes ?
 - Quels sont les clients qui ont passés plus de 20 commandes ?
 
-Après avoir construit la base de données et construit les tables répondant aux questions ci-dessus, je dois produire un rapport BI répondant à la troisième question.
+Après avoir construit la base de données et construit les tables répondant aux questions ci-dessus, je dois produire un rapport BI répondant aux quatre premières questions.
 
 # Rendu
 
