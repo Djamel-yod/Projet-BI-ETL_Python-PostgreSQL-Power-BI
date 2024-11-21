@@ -17,6 +17,8 @@ Nous sommes dans le contexte du Retail, où l'objectif est d'analyser la perform
 
 Les questions que nous chercherons à résoudre incluent par exemple :
 
+- Quel est le nombre de clients ?
+- Quel est le nombre des commandes ?
 - Quel est le montant total et moyen des ventes entre 2022 et 2024 ?
 - Quel est notre chiffre d'affaires (CA) par mois et par an depuis 2022 ?
 - Quel est le CA par année, mois et par catégorie de produits ?
