@@ -42,7 +42,7 @@ Après la construction de ma base de données sous PostgreSQL, je requête cette
 
 **-** Requêtage de ma base de données ainsi construite pour répondre aux problématiques business énoncées plus haut (Fichier nommé Reponses_Questions.sql)
 
-**-** Production d'un tableau de bord interactif sous **Power BI** pour répondre à la 3e question (Fichier Rapport BI.pbix)
+**-** Production d'un tableau de bord interactif sous **Power BI** pour répondre à la 3e question (Fichier nommé Rapport BI.pbix)
 
 
 
