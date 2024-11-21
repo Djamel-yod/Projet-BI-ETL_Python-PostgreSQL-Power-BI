@@ -1,7 +1,8 @@
 
-## Intégration de données dans une base de données PostgreSQL en utilisant du script Python
+## Intégration de données dans une base de données PostgreSQL en utilisant du script Python et rendu avec Power BI.
 
-<img width="800" alt="Image1" src="https://github.com/user-attachments/assets/8e63c6f4-87b9-4d01-bafb-7566474d2de0">
+![image](https://github.com/user-attachments/assets/dc73f02e-aaba-4902-abe8-0d9f465a518b)
+
 
 À travers ce projet, je montre mes compétences dans la construction d'une base de données et dans son requêtage en langage SQL afin d'en extraire des insights précieux.
 
@@ -22,7 +23,15 @@ Les questions que nous chercherons à résoudre incluent par exemple :
 - Quels sont les clients qui ont passés plus de 20 commandes ?
 
 
-J'utilise dans ce projet mes compétences en **Python** et **SQL** pour résoudre le problème posé.
+J'utilise dans ce projet mes compétences en **Python**, **SQL** et **Power BI** pour résoudre les problèmes posés.
+
+
+# Rendu
+
+Après la construction de ma base de données sous PostgreSQL, je requête cette dernière pour répondre aux problématiques business énoncées plus haut, et je produit un rapport BI interactif sous **Power BI** afin de permettre aux décideurs d'avoir une vue synthétique de la réponse de la troisième question. Ce rapport, dont l'image est ci-dessous, permet à l'utilisateur de savoir quelle est l'évolution mensuelle du chiffre d'affaires pour chaque année et par catégorie de produit. Elle permet également de répondre aux mêmes questions pour toutes les années comprises (2022 à 2024).
+
+<img width="508" alt="Rapport" src="https://github.com/user-attachments/assets/7c90a9c3-c8ea-4d5b-ba0c-ecb64d11f0bf">
+
 
 # Méthodologie
 
@@ -32,13 +41,20 @@ J'utilise dans ce projet mes compétences en **Python** et **SQL** pour résoudr
 
 **-** Chargement des données dans le datawarehouse **PostgreSQL**
 
-**-** Requêtage de ma base de données ainsi construite pour répondre aux problématiques business énoncées plus haut (Fichier nommé Reponses_Questions.sql).
+**-** Requêtage de ma base de données ainsi construite pour répondre aux problématiques business énoncées plus haut (Fichier nommé Reponses_Questions.sql)
+
+**-** Production d'un tableau de bord interactif sous **Power BI** pour répondre à la 3e question (Fichier Rapport BI.pbix)
+
+
 
 # Outils
 
-<img width="391" alt="Capture_Python2" src="https://github.com/user-attachments/assets/f1b54b4b-c6e1-4b91-8224-0129e160ed34">
+<img width="200" alt="Capture_Python2" src="https://github.com/user-attachments/assets/f1b54b4b-c6e1-4b91-8224-0129e160ed34">
 
-<img width="559" alt="PostgreSQL" src="https://github.com/user-attachments/assets/c0f4d9b2-ebe7-472a-be81-c8add941b0ee">
+<img width="200" alt="PostgreSQL" src="https://github.com/user-attachments/assets/c0f4d9b2-ebe7-472a-be81-c8add941b0ee">
+
+<img width="165" alt="Capture_PowerBI" src="https://github.com/user-attachments/assets/7a8ecf66-7f55-43ee-bb20-88abe9c99af8">
+
 
 <a href="#">#Python</a>
 <a href="#">#SQL</a>
