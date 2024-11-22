@@ -2,8 +2,8 @@
 ## Projet Business Intelligence (Python+SQL+Power BI)
 
 
-<img width="500" height="200" alt="CaptureETL" src="https://github.com/user-attachments/assets/cf47d253-57a2-4053-906a-af6a240bbf12"> 
-<img width="500" height="200" alt="Rapport" src="https://github.com/user-attachments/assets/398eecd4-b960-4944-b4d1-0a67c40b2575">
+<img width="400" height="200" alt="CaptureETL" src="https://github.com/user-attachments/assets/cf47d253-57a2-4053-906a-af6a240bbf12"> 
+<img width="400" height="200" alt="Rapport" src="https://github.com/user-attachments/assets/398eecd4-b960-4944-b4d1-0a67c40b2575">
 
 J'utilise dans ce projet mes compétences en **Python**, **SQL** et **Power BI** pour mener de bout en bout un projet BI complet allant de l'intégration des données à la production d'un rapport BI permettant d'extraire des insights précieux.
 
