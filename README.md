@@ -18,7 +18,7 @@ Nous sommes dans le contexte du Retail, où l'objectif est d'analyser la perform
 - Quel sont les 10 clients qui ont passés le plus de commandes par année ? 
 - Quel sont les clients qui ont passés plus de 20 commandes ? 
 
-Je dois repondre à ces questions à partir des quatres fichiers excel:
+Je dois répondre à ces questions à partir des quatre fichiers excel:
 
 - **customers** : contient des informations sur nos clients, telles que nom, prénom, email et date d’inscription.
 - **products** : inclut des détails comme le prix, le nom du produit et sa catégorie.
