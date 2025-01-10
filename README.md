@@ -3,37 +3,37 @@
 
 
 <img width="400" height="200" alt="CaptureETL" src="https://github.com/user-attachments/assets/cf47d253-57a2-4053-906a-af6a240bbf12"> 
-<img width="400" height="200" alt="Rapport" src="https://github.com/user-attachments/assets/398eecd4-b960-4944-b4d1-0a67c40b2575">
+<img width="400" height="200" alt="Capture1" src="https://github.com/user-attachments/assets/2f72e0ec-9dca-4191-a1cb-0231acccfc51" />
 
 J'utilise dans ce projet mes compétences en **Python**, **SQL** et **Power BI** pour mener de bout en bout un projet BI complet allant de l'intégration des données à la production d'un rapport BI permettant d'extraire des insights précieux.
 
 
 # Contexte
-Nous sommes dans le contexte du Retail, où l'objectif est d'analyser la performance de nos ventes. En tant que Data Analyst, mon supérieur m'a confié la tâche de construire une base de données SQL (Datawarehouse) à partir des quatres fichiers excel suivants:
+Nous sommes dans le contexte du Retail, où l'objectif est d'analyser la performance de nos ventes. En tant que Data Analyst, mon supérieur m'a confié la tâche de répondre au questions business suivants: 
+
+- Quel est le nombre de nos clients par an ? 
+- Quel est le nombre de nos commandes par an ?
+- Quel est notre chiffre d'affaires (CA) par mois et par an depuis 2022 
+- Quel ets notre CA par année, mois et par catégorie de produits ?
+- Quel sont les 10 clients qui ont passés le plus de commandes par année ? 
+- Quel sont les clients qui ont passés plus de 20 commandes ? 
+
+Je dois repondre à ces questions à partir des quatres fichiers excel suivants:
 
 - **customers** : contient des informations sur nos clients, telles que nom, prénom, email et date d’inscription.
 - **products** : inclut des détails comme le prix, le nom du produit et sa catégorie.
 - **orders** : contient des informations telles que le client qui a passé la commande, la date de la commande et son statut.
 - **order_details** : donne des informations sur les produits commandés, la quantité et le prix unitaire.
 
-Les questions que nous chercherons à résoudre incluent par exemple :
-
-- Quel est le nombre de clients ?
-- Quel est le nombre des commandes ?
-- Quel est le montant total et moyen des ventes entre 2022 et 2024 ?
-- Quel est notre chiffre d'affaires (CA) par mois et par an depuis 2022 ?
-- Quel est le CA par année, mois et par catégorie de produits ?
-- Quels sont les 10 clients qui ont passés le plus de commandes ?
-- Quels sont les clients qui ont passés plus de 20 commandes ?
-
-Après avoir construit la base de données et construit les tables répondant aux questions ci-dessus, je dois produire un rapport BI répondant aux quatre premières questions.
+Je construis dans un premier temps une base de données SQL (Datawarehouse) qui va me permettre, à travers des requêtes, de répondre aux questions posées.
+Après avoir construit la base de données et construit les KPIs et les tables répondant aux questions ci-dessus en utilisant le langage SQL, je dois produire un rapport BI synthétisant les réponses afin d'aider à la prise de décision.
 
 # Rendu
 
-Après la construction de ma base de données sous PostgreSQL, je requête cette dernière pour répondre aux problématiques business énoncées plus haut, et je produit un rapport BI interactif sous **Power BI** afin de permettre aux décideurs d'avoir une vue synthétique de la réponse de la troisième question. Ce rapport, dont l'image est ci-dessous, permet à l'utilisateur de savoir quelle est l'évolution mensuelle du chiffre d'affaires pour chaque année et par catégorie de produit, le nombre de client durant l'année, le nombre de commande et le chiffre d'affaire annuel. Elle permet également de répondre aux mêmes questions pour toutes les années comprises (2022 à 2024).
+Après la construction de ma base de données sous PostgreSQL, je requête cette dernière pour répondre aux problématiques business énoncées plus haut, et je produit un rapport BI interactif sous **Power BI** afin de permettre aux décideurs d'avoir une vue synthétique des réponses aux questions. Ce rapport, dont l'image est ci-dessous, permet à l'utilisateur de visualiser, pour chaque année, les KPIs : nombre de clients, nombre de commandes et chiffre d'affaires, aussi bien pour les commandes achevées que celles qui ont été annulées. Elle permet également de visualiser, pour chaque statut de commande (achevée ou annulée) et pour chaque année, l'évolution mensuelle du chiffre d'affaires, les dix clients et les catégories ayant le plus contribué au chiffre d'affaires.
 
-<img width="800" alt="Rapport" src="https://github.com/user-attachments/assets/206518e1-67c7-46e8-aba2-ce80d7cd4310">
 
+<img width="573" alt="Capture2" src="https://github.com/user-attachments/assets/a418f5d9-a8d6-4abb-bc7b-74f125908981" />
 
 # Méthodologie
 
@@ -45,7 +45,7 @@ Après la construction de ma base de données sous PostgreSQL, je requête cette
 
 **-** Requêtage de ma base de données ainsi construite pour répondre aux problématiques business énoncées plus haut (Fichier nommé Reponses_Questions.sql)
 
-**-** Production d'un tableau de bord interactif sous **Power BI** pour répondre à la 3e question (Fichier nommé Rapport BI.pbix)
+**-** Production d'un tableau de bord interactif sous **Power BI** pour synthétiser les réponses aux questions (Fichier nommé Rapport BI.pbix)
 
 
 
