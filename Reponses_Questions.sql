@@ -149,6 +149,40 @@ INNER JOIN
 	
 
 
-	
+-- Quel sont les 10 produits les plus vendus ---
+
+CREATE OR REPLACE VIEW ten_best_seller AS
+WITH 
+    Nombre_cds_produits AS (
+        SELECT 
+            order_details.product_id, 
+            COUNT(DISTINCT orders.order_id) AS nbr_id
+        FROM 
+            orders 
+        INNER JOIN 
+            order_details ON orders.order_id = order_details.order_id
+        WHERE orders.status='Completed'
+        GROUP BY 
+            order_details.product_id
+    ),
+    Agg_by_name AS (
+        SELECT 
+            Nombre_cds_produits.nbr_id, 
+            Nombre_cds_produits.product_id, 
+            products.product_name
+        FROM 
+            Nombre_cds_produits 
+        INNER JOIN 
+            products ON Nombre_cds_produits.product_id = products.product_id
+        GROUP BY 
+            Nombre_cds_produits.nbr_id,
+			Nombre_cds_produits.product_id, 
+            products.product_name 
+        ORDER BY 
+            Nombre_cds_produits.nbr_id DESC
+        LIMIT 10
+    )
+
+SELECT * FROM Agg_by_name;
 
 
