@@ -9,16 +9,16 @@ J'utilise dans ce projet mes compétences en **Python**, **SQL** et **Power BI**
 
 
 # Contexte
-Nous sommes dans le contexte du Retail, où l'objectif est d'analyser la performance de nos ventes. En tant que Data Analyst, mon supérieur m'a confié la tâche de répondre au questions business suivants: 
+Nous sommes dans le contexte du Retail, où l'objectif est d'analyser la performance de nos ventes. En tant que Data Analyst, mon supérieur m'a confié la tâche de répondre aux questions business suivantes: 
 
 - Quel est le nombre de nos clients par an ? 
 - Quel est le nombre de nos commandes par an ?
-- Quel est notre chiffre d'affaires (CA) par mois et par an depuis 2022 
-- Quel ets notre CA par année, mois et par catégorie de produits ?
+- Quel est notre chiffre d'affaires (CA) par mois et par an depuis 2022 ? 
+- Quel est notre CA par année, mois et par catégorie de produits ?
 - Quel sont les 10 clients qui ont passés le plus de commandes par année ? 
 - Quel sont les clients qui ont passés plus de 20 commandes ? 
 
-Je dois repondre à ces questions à partir des quatres fichiers excel suivants:
+Je dois repondre à ces questions à partir des quatres fichiers excel:
 
 - **customers** : contient des informations sur nos clients, telles que nom, prénom, email et date d’inscription.
 - **products** : inclut des détails comme le prix, le nom du produit et sa catégorie.
@@ -30,7 +30,7 @@ Après avoir construit la base de données et construit les KPIs et les tables r
 
 # Rendu
 
-Après la construction de ma base de données sous PostgreSQL, je requête cette dernière pour répondre aux problématiques business énoncées plus haut, et je produit un rapport BI interactif sous **Power BI** afin de permettre aux décideurs d'avoir une vue synthétique des réponses aux questions. Ce rapport, dont l'image est ci-dessous, permet à l'utilisateur de visualiser, pour chaque année, les KPIs : nombre de clients, nombre de commandes et chiffre d'affaires, aussi bien pour les commandes achevées que celles qui ont été annulées. Elle permet également de visualiser, pour chaque statut de commande (achevée ou annulée) et pour chaque année, l'évolution mensuelle du chiffre d'affaires, les dix clients et les catégories ayant le plus contribué au chiffre d'affaires.
+Après la construction de ma base de données sous PostgreSQL, je requête cette dernière pour répondre aux problématiques business énoncées plus haut, et je produit un rapport BI interactif sous **Power BI** afin de permettre aux décideurs d'avoir une vue synthétique des réponses aux questions. Ce rapport, dont l'image est ci-dessous, permet à l'utilisateur de visualiser, pour chaque année, les KPIs : nombre de clients, nombre de commandes et chiffre d'affaires, aussi bien pour les commandes achevées que celles qui ont été annulées. Elle permet également de visualiser, pour chaque statut de commande (achevée ou annulée) et pour chaque année, l'évolution mensuelle du chiffre d'affaires, les dix clients et les catégories de produits ayant le plus contribué au chiffre d'affaires.
 
 
 <img width="1000" alt="Capture2" src="https://github.com/user-attachments/assets/f94810d9-bcc2-4dbe-af0e-3cdd333e72d2" />
@@ -38,11 +38,9 @@ Après la construction de ma base de données sous PostgreSQL, je requête cette
 
 # Méthodologie
 
-**-** Construction des tables de la base de données **PostgreSQL** (Fichier nommé Tables.sql)
+**-** Construction des tables de ma base de données **PostgreSQL** (Fichier nommé Tables.sql)
 
-**-** Construction d'un **ETL** en utilisant **pandas** et **sqlalchemy** (Fichier nommé etl.ipynb)
-
-**-** Chargement des données dans le datawarehouse **PostgreSQL**
+**-** Construction d'un **ETL** en utilisant **pandas** et **sqlalchemy** pour Extraire, transformer les données de mes fichiers brutes excel et les Charger dans mon datawarehouse **PostgreSQL** (Fichier nommé etl.ipynb)
 
 **-** Requêtage de ma base de données ainsi construite pour répondre aux problématiques business énoncées plus haut (Fichier nommé Reponses_Questions.sql)
 
