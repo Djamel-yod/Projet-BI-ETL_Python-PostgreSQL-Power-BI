@@ -33,7 +33,7 @@ Après avoir construit la base de données et construit les KPIs et les tables r
 Après la construction de ma base de données sous PostgreSQL, je requête cette dernière pour répondre aux problématiques business énoncées plus haut, et je produit un rapport BI interactif sous **Power BI** afin de permettre aux décideurs d'avoir une vue synthétique des réponses aux questions. Ce rapport, dont l'image est ci-dessous, permet à l'utilisateur de visualiser, pour chaque année, les KPIs : nombre de clients, nombre de commandes et chiffre d'affaires, aussi bien pour les commandes achevées que celles qui ont été annulées. Elle permet également de visualiser, pour chaque statut de commande (achevée ou annulée) et pour chaque année, l'évolution mensuelle du chiffre d'affaires, les dix clients et les catégories ayant le plus contribué au chiffre d'affaires.
 
 
-<img width="576" alt="Capture2" src="https://github.com/user-attachments/assets/f94810d9-bcc2-4dbe-af0e-3cdd333e72d2" />
+<img width="1000" alt="Capture2" src="https://github.com/user-attachments/assets/f94810d9-bcc2-4dbe-af0e-3cdd333e72d2" />
 
 
 # Méthodologie
