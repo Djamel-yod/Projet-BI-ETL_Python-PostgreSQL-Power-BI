@@ -40,9 +40,9 @@ Après la construction de ma base de données sous PostgreSQL, je requête cette
 
 **-** Construction des tables de ma base de données **PostgreSQL** (Fichier nommé Tables.sql)
 
-**-** Construction d'un **ETL** en utilisant **pandas** et **sqlalchemy** pour Extraire, transformer les données de mes fichiers brutes excel et les Charger dans mon datawarehouse **PostgreSQL** (Fichier nommé etl.ipynb)
+**-** Construction d'un **ETL** en utilisant **pandas** et **sqlalchemy** pour Extraire, transformer les données de mes fichiers brutes excel et les Charger dans mon datawarehouse **PostgreSQL** (dossier nommé Scripts python)
 
-**-** Requêtage de ma base de données ainsi construite pour répondre aux problématiques business énoncées plus haut (Fichier nommé Reponses_Questions.sql)
+**-** Requêtage de ma base de données ainsi construite pour répondre aux problématiques business énoncées plus haut (dossier nommé Requêtes SQL)
 
 **-** Production d'un tableau de bord interactif sous **Power BI** pour synthétiser les réponses aux questions (Fichier nommé Rapport BI.pbix)
 
