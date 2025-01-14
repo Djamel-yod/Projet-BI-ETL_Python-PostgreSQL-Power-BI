@@ -26,7 +26,7 @@ Je dois répondre à ces questions à partir des quatre fichiers excel:
 - **order_details** : donne des informations sur les produits commandés, la quantité et le prix unitaire.
 
 Je construis dans un premier temps une base de données SQL (Datawarehouse) qui va me permettre, à travers des requêtes, de répondre aux questions posées.
-Après avoir construit la base de données et construit les KPIs et les tables répondant aux questions ci-dessus en utilisant le langage SQL, je dois produire un rapport BI synthétisant les réponses afin d'aider à la prise de décision.
+Après avoir construit la base de données et construit les KPIs et les tables de données répondant aux questions ci-dessus en utilisant le langage SQL, je dois produire un rapport BI synthétisant les réponses afin d'aider à la prise de décision.
 
 # Rendu
 
