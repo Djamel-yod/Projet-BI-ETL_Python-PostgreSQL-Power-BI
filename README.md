@@ -3,7 +3,7 @@
 
 
 <img width="400" height="200" alt="CaptureETL" src="https://github.com/user-attachments/assets/cf47d253-57a2-4053-906a-af6a240bbf12"> 
-<img width="400" height="200" alt="Capture1" src="https://github.com/user-attachments/assets/f6257f98-33de-4d6f-a4e8-96def84bf5fe" />
+<img width="400" height="200" alt="Capture" src="https://github.com/user-attachments/assets/a4c45ac9-cb3f-4b76-a04c-1b1cbfdfae58" />
 
 J'utilise dans ce projet mes compétences en **Python**, **SQL** et **Power BI** pour mener de bout en bout un projet BI complet allant de l'intégration des données à la production d'un rapport BI permettant d'extraire des insights précieux.
 
@@ -32,7 +32,7 @@ Après avoir construit la base de données et construit les KPIs et les tables d
 
 Après la construction de ma base de données sous PostgreSQL, je requête cette dernière pour répondre aux problématiques business énoncées plus haut, et je produit un rapport BI interactif sous **Power BI** afin de permettre aux décideurs d'avoir une vue synthétique des réponses aux questions. Ce rapport, dont l'image est ci-dessous, permet à l'utilisateur de visualiser, pour chaque année, les KPIs : nombre de clients, nombre de commandes et chiffre d'affaires, aussi bien pour les commandes achevées que celles qui ont été annulées. Elle permet également de visualiser, pour chaque statut de commande (achevée ou annulée) et pour chaque année, l'évolution mensuelle du chiffre d'affaires, les dix clients et les catégories de produits ayant le plus contribué au chiffre d'affaires.
 
-<img width="1000" alt="Capture1" src="https://github.com/user-attachments/assets/7daf2e6d-ced4-441d-8734-a02eea9b9a08" />
+<img width="1000" alt="Capture" src="https://github.com/user-attachments/assets/6d97dbb9-dd7a-4f8d-827d-ac7627eac29c" />
 
 
 # Méthodologie
