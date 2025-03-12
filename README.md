@@ -35,6 +35,7 @@ Après la construction de ma base de données sous PostgreSQL, je requête cette
 
 <img width="1000" alt="Capture 3" src="https://github.com/user-attachments/assets/414c86ac-ba6b-45aa-ac35-882723611ce0" />
 
+<img width="1000" alt="Capture 3" src="https://github.com/user-attachments/assets/db804ba5-39fd-4534-8426-c31086e81401" />
 
 # Méthodologie
 
