@@ -5,6 +5,9 @@
 <img width="400" height="200" alt="CaptureETL" src="https://github.com/user-attachments/assets/cf47d253-57a2-4053-906a-af6a240bbf12"> 
 <img width="400" height="200" alt="Capture 3" src="https://github.com/user-attachments/assets/414c86ac-ba6b-45aa-ac35-882723611ce0" />
 
+
+[Tableau de bord Chiffre d'Affaires.pdf](https://github.com/user-attachments/files/19205470/Tableau.de.bord.Chiffre.d.Affaires.pdf)
+
 J'utilise dans ce projet mes compétences en **Python**, **SQL** et **Power BI** pour mener de bout en bout un projet BI complet allant de l'intégration des données à la production d'un rapport BI permettant d'extraire des insights précieux.
 
 
