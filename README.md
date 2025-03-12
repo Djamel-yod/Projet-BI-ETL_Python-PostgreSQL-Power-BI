@@ -32,11 +32,11 @@ Après avoir construit la base de données et construit les KPIs et les tables d
 
 Après avoir construit une base de données PostgreSQL pour répondre aux besoins de l'entreprise, j'ai créé un rapport interactif Power BI. Ce rapport offre aux décideurs une vue d'ensemble des indicateurs clés de performance (KPIs) par année :
 
-**-** Nombre de nouveaux clients
-**-** Nombre de commandes
-**-** Chiffre d'affaires
-**-** Taux d'annulation des commandes
-**-** Le rapport permet également d'analyser :
+- Nombre de nouveaux clients
+- Nombre de commandes
+- Chiffre d'affaires
+- Taux d'annulation des commandes
+- Le rapport permet également d'analyser :
 
 L'évolution mensuelle du chiffre d'affaires par année
 Les 10 meilleurs clients en termes de chiffre d'affaires, avec la répartition de leurs dépenses (info-bulles)
