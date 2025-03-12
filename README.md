@@ -3,7 +3,7 @@
 
 
 <img width="400" height="200" alt="CaptureETL" src="https://github.com/user-attachments/assets/cf47d253-57a2-4053-906a-af6a240bbf12"> 
-<img width="400" height="200" alt="Capture" src="https://github.com/user-attachments/assets/a4c45ac9-cb3f-4b76-a04c-1b1cbfdfae58" />
+<img width="400" height="200" alt="Capture 3" src="https://github.com/user-attachments/assets/414c86ac-ba6b-45aa-ac35-882723611ce0" />
 
 J'utilise dans ce projet mes compétences en **Python**, **SQL** et **Power BI** pour mener de bout en bout un projet BI complet allant de l'intégration des données à la production d'un rapport BI permettant d'extraire des insights précieux.
 
