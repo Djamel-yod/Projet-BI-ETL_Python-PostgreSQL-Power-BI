@@ -36,11 +36,13 @@ Après avoir construit une base de données PostgreSQL pour répondre aux besoin
 - Nombre de commandes
 - Chiffre d'affaires
 - Taux d'annulation des commandes
-- Le rapport permet également d'analyser :
 
-L'évolution mensuelle du chiffre d'affaires par année
-Les 10 meilleurs clients en termes de chiffre d'affaires, avec la répartition de leurs dépenses (info-bulles)
-Les catégories de produits les plus contributrices au chiffre d'affaires
+Le rapport permet également d'analyser :
+
+- L'évolution mensuelle du chiffre d'affaires par année
+- Les 10 meilleurs clients en termes de chiffre d'affaires, avec la répartition de leurs dépenses (info-bulles)
+- Les catégories de produits les plus contributrices au chiffre d'affaires
+
 En résumé, ce rapport Power BI fournit une analyse visuelle et interactive des données de l'entreprise, facilitant la prise de décisions stratégiques.
 
 
