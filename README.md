@@ -3,7 +3,8 @@
 
 
 <img width="400" height="200" alt="CaptureETL" src="https://github.com/user-attachments/assets/cf47d253-57a2-4053-906a-af6a240bbf12"> 
-<img width="400" height="200" alt="Capture 3" src="https://github.com/user-attachments/assets/fced9323-7bbf-4086-9931-403289dfe495" />
+<img width="400" height="200" alt="Capture_last" src="https://github.com/user-attachments/assets/d8dc0dd3-1053-4627-ab1b-ce0585d0e857" />
+
 
 
 Fichier PDF téléchargeable: [Tableau de bord Chiffre d'Affaires.pdf](https://github.com/user-attachments/files/19205470/Tableau.de.bord.Chiffre.d.Affaires.pdf)
@@ -48,9 +49,7 @@ Le rapport permet également d'analyser :
 
 En résumé, ce rapport Power BI fournit une analyse visuelle et interactive des données de l'entreprise, facilitant la prise de décisions stratégiques.
 
-<img width="1000" alt="Capture 3" src="https://github.com/user-attachments/assets/0a9be6a3-d653-4bdf-a954-1019779f1711" />
-
-<img width="1000" alt="Capture 3" src="https://github.com/user-attachments/assets/5259229e-000e-46c2-a808-6a2d6b20b050" />
+<img width="1000" alt="Capture_last" src="https://github.com/user-attachments/assets/d8dc0dd3-1053-4627-ab1b-ce0585d0e857" />
 
 
 # Méthodologie
